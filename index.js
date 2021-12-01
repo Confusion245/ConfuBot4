@@ -135,8 +135,8 @@ nopref = false
 numbernye = '0'
 autoketik = false;
 prefixStatus = true;
-targetpc = "51923568749"; 
-owner = "51923568749"; 
+targetpc = "50763902442"; 
+owner = "50763902442"; 
 fakeyoi = "Confu"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
@@ -146,7 +146,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@51923568749"; 
+nomorowner1 = "@50763902442"; 
 fake = `𝗖𝗿𝗲𝗮𝗱𝗼𝗿 : ${fakeyoi}\n︎𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -1198,7 +1198,7 @@ const serialUser = createSerial(18)
 *☂︎ Serial:* ${serialUser}
 *☂ ︎Total:* ${_registered.length} User
 
-*「 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4 」*`
+*「 Abba𝗕𝗼𝘁4 」*`
          haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
              buttons = [{buttonId: `menu`,buttonText:{displayText: `🌿MENU🌿`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
@@ -1210,7 +1210,7 @@ const serialUser = createSerial(18)
 	    // console.log(e)
             setTimeout( () => {
 			cnf.updatePresence(from, Presence.composing)
-			reply(`*Gracias por registrarse en 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4*`)
+			reply(`*Gracias por registrarse en Abba𝗕𝗼𝘁4*`)
 		}, 2000)
         break
       
@@ -1531,7 +1531,7 @@ buttons = [{buttonId: `futa`,buttonText:{displayText: `➡️Next`},type:1}]
 break
 case 'creditos':
 if (isBanned) return  reply(mess.banned)
-   dtod = '51923568749'
+   dtod = '50763902442'
    var yez = `
    [ 𝐶𝑟𝑒𝑑𝑖𝑡𝑜𝑠 ] :
    
@@ -1574,7 +1574,7 @@ break
 case 'owner':
            case 'creator':
            case 'creador':
-           case 'confu':    
+           case 'abba':    
 if (isBanned) return  reply(mess.banned)         
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                sendKontak(from, `${owner}`, `${fakeyoi}`, '!Sexo!')
@@ -1673,7 +1673,7 @@ sendBug(args[0])
 break
                      				case 'crash': 
 if (!mek.key.fromMe) return;
-cnf.sendMessage(mek.key.remoteJid, '𝐂𝐫𝐚𝐬𝐡 𝐛𝐲 𝐂𝐨𝐧𝐟𝐮𝐌𝐨𝐝𝐬', MessageType.extendedText, {
+cnf.sendMessage(mek.key.remoteJid, '𝐂𝐫𝐚𝐬𝐡 𝐛𝐲 Abba𝐌𝐨𝐝𝐬', MessageType.extendedText, {
  quoted: {
   key: {
    participant: '0@s.whatsapp.net'
@@ -1683,7 +1683,7 @@ cnf.sendMessage(mek.key.remoteJid, '𝐂𝐫𝐚𝐬𝐡 𝐛𝐲 𝐂𝐨𝐧�
     itemCount: 9999999, 
     status: 1,
     surface: 1,
-    message: '𝐂𝐨𝐧𝐟𝐮𝐁𝐨𝐭𝟐',
+    message: 'Abba𝐁𝐨𝐭𝟐',
     orderTitle: 'BY CONFUMODS ', // 
     sellerJid: '0@s.whatsapp.net' //
    }
@@ -1735,7 +1735,7 @@ if (!mek.key.fromMe) return;
 				 for (let i = 0; i < args[0]; i++) {
 await cnf.toggleDisappearingMessages(from, 0)
 }
-sendFakeStatus(from, '𝐂𝐨𝐧𝐟𝐮𝐌𝐨𝐝𝐬'+args.join(' '), fake)					
+sendFakeStatus(from, 'Abba𝐌𝐨𝐝𝐬'+args.join(' '), fake)					
           break
 					case 'crash4':				
 if (!mek.key.fromMe) return;
@@ -1966,7 +1966,7 @@ if (isBanned) return  reply(mess.banned)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
  buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
- footerText: '𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4',
+ footerText: 'Abba𝗕𝗼𝘁4',
  description: `Hola @${sender.split('@')[0]}, Seleccione el menú aquí`,
  sections: [
                      {
@@ -2030,7 +2030,7 @@ menu = `🌿𝘔𝘦𝘯𝘶 𝘥𝘦 𝘋𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘴🌿
 
 🌿${prefix}twitter <link>
 `
-sendButMessage(from, menu, `𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu,`Abba𝗕𝗼𝘁4`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2069,7 +2069,7 @@ menu = `🌿𝘎𝘳𝘶𝘱𝘰 𝘔𝘦𝘯𝘶︎🌿
 
 🌿${prefix}autojoin
 `
-sendButMessage(from, menu, ` 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, `Abba𝗕𝗼𝘁4`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2125,7 +2125,7 @@ menu = `シ︎𝘊𝘳𝘦𝘢𝘥𝘰𝘳 𝘔𝘦𝘯𝘶シ︎
 
 🌿${prefix}eval <code>
 `
-sendButMessage(from, menu, `𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, ` 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2184,7 +2184,7 @@ menu = `🌿𝘔𝘦𝘯𝘶 𝘷𝘢𝘳𝘪𝘢𝘥𝘰🌿
 
 🌿${prefix}playstore <texto>
 `
-sendButMessage(from, menu, ` 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, ` Abba𝗕𝗼𝘁4`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2232,7 +2232,7 @@ menu = `🌿Creador Menu🌿
 
 🌿${prefix}waifu
 `
-sendButMessage(from, menu, ` 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, `Abba𝗕𝗼𝘁4`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -3329,7 +3329,7 @@ cnf.sendMessage(from, ini_buf, image, { quoted: mek, thumbnail: fs.readFileSync(
                 if (args.length < 1) return reply(`Donde esta el texto?`)
                 dpuhy = args.join(' ')
                tiyo = `Por favor elige uno`
-sendButMessage(from, tiyo, `𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, tiyo, `Abba𝗕𝗼𝘁4`, [
             {              
               buttonId: `writedown ${dpuhy}`,
               buttonText: {
@@ -3362,7 +3362,7 @@ sendButMessage(from, tiyo, `𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
              for (let _ of anu) {
 cnf.sendMessage(_.jid, 
 			{"contentText": `*「 DIFUSIÓN 」*\n\n${body.slice(4)}`,
-			"footerText": '𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4',
+			"footerText": 'Abba𝗕𝗼𝘁4',
 			"buttons": [
 			{"buttonId": `${prefix}allmenu`,
 			"buttonText": {"displayText": "CLICK PARA VER EL MENU"
@@ -4511,7 +4511,7 @@ for (let i = 0; i < htgg; i++) {
           ytresult +=
             "❏ Subido: " + video.ago + "\n________________________\n\n";
         });
-        ytresult += "◩ *CONFU-BOT4*";
+        ytresult += "◩ *Abba-BOT4*";
         await fakethumb(tbuff, ytresult);
         break;
       case "setreply":
